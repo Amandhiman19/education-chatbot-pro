@@ -1,0 +1,18 @@
+{
+  "name": "education-chatbot-pro",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.3",
+    "openai": "^4.22.1",
+    "express-rate-limit": "^7.1.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
